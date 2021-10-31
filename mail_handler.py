@@ -19,8 +19,17 @@ except:
 
 
 target_subject_key = 'New China Cuisine - Order'
-
 orignal_creds = os.path.join(os.getcwd(), 'data', 'orignal_creds.json')
+
+
+from datetime import  *
+import time
+
+ 
+
+
+
+
 
 
 # Define the SCOPES. If modifying it, delete the token.pickle file.
@@ -47,16 +56,26 @@ def getEmails():
 
     # request a list of all the messages
     print("-->> Getting first 50 messages")
-    result = service.users().messages().list(maxResults=50, userId='me', labelIds=['INBOX']).execute()
-
-    # We can also pass maxResults to get any number of emails. Like this:
-    # result = service.users().messages().list(maxResults=200, userId='me').execute()
+    
+    today = datetime.now().today()
+    date  = datetime(today.year, today.month, today.day, 0, 0)
+    seconds  =time.mktime(date.timetuple())
+        
+    tomorrow = datetime.now().today().date() + timedelta(1)
+    today = datetime.now().today().date()
+    
+        
+    query = f"after: {today}"    
+    result = service.users().messages().list(maxResults=50, userId='me', labelIds=['INBOX'],q=query).execute()
     messages = result.get('messages')
+
+
+    print(len(messages))
 
     # messages is a list of dictionaries where each dictionary contains a message id.
 
     # iterate through all the messages
-    for msg_index, msg in enumerate(messages[:]):
+    for msg_index, msg in enumerate(messages[:0]):
         # Get the message from its id
         txt = service.users().messages().get(
             userId='me', id=msg['id']).execute()

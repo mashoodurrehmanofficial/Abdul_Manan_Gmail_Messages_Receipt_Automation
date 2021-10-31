@@ -1,39 +1,55 @@
 ===new order===
 
-Order no: 392027783
-Accepted at: Friday, Oct 29, 2021, 3:09 PM
+Order no: 392881858
+Accepted at: Saturday, Oct 30, 2021, 5:16 PM
 
-Type: DELIVERY
-Delivery time: Friday, Oct 29, 2021, 3:54 PM
-Payment method: APPLE PAY 
-SUBTOTAL $15.50
-Sales tax (8.38%):  $1.30
-DELIVERY FEE $2.55
-DELIVERY FEE TAX (8.38%): $0.21
-TIP $1.96
-TOTAL: $21.52
+Type: PICKUP
+Pickup time: Saturday, Oct 30, 2021, 5:36 PM
+Payment method: CASH 
+SUBTOTAL $60.61
+Sales tax (8.38%):  $5.08
+TOTAL: $65.69
 
 ===client info===
 
-Name: Kryste Poole
-Email: krystesmith.ks@gmail.com
-Phone: +17024498320
-Address: 5426 Royal Yacht Way, 89031, North Las Vegas
-IP: 107.77.245.26
-
-Comment: SOY SAUCE AND CHOP STICKS PLEASE
+Name: Edgar Diaz
+Email: iamedgarjdiaz@icloud.com
+Phone: +17023517753
+IP: 172.226.3.187
 
 ===items===
 
-Item: 1 x Lunch Cashew Chicken 午餐腰果鸡 $7.55
-CHOOSE RICE - Egg Fried Rice 蛋炒饭 
-CHOOSE SOUP - EGG FLOWER SOUP 蛋花汤 
-NO CARROTS, NO ONIONS, NO WATER CHESTNUTS PLEASE
+Item: 1 x CD SWEET & SOUR CHICKEN 套甜酸鸡 $10.95
+CHOOSE RICE - STEAM RICE 白饭 
+CHOOSE SOUP - WONTON SOUP 馄饨汤 (+$1.00)
+Modification Special - No Vegetables 不菜 
+SAUCE ON SIDE
 --------------------------
 
-Item: 1 x Lunch Orange Chicken 午餐陈皮鸡 $7.95
+Item: 1 x CD ORANGE CHICKEN 套陈皮鸡 $10.95
 CHOOSE RICE - Egg Fried Rice 蛋炒饭 
-CHOOSE SOUP - EGG FLOWER SOUP 蛋花汤 
+CHOOSE SOUP - WONTON SOUP 馄饨汤 (+$1.00)
+Modification Special - No Vegetables 不菜 
 --------------------------
 
-                ===end of order===
+Item: 1 x CD SESAME CHICKEN 套芝麻鸡 $10.95
+CHOOSE RICE - Egg Fried Rice 蛋炒饭 
+CHOOSE SOUP - WONTON SOUP 馄饨汤 (+$1.00)
+Modification Special - No Vegetables 不菜 
+NO VEGETABLES ON RICE
+--------------------------
+
+Item: 1 x SHRIMP CRAB $11.95
+--------------------------
+
+Item: 1 x Rock N Roll $11.25
+--------------------------
+
+Item: 1 x BEEF CHOW MEIN 牛炒面 $7.75
+Modification Noodle - No Vegetables 不菜 
+--------------------------
+
+                            Promo deal:  5% Off Your 1st Order -$3.19
+--------------------------
+
+===end of order===
